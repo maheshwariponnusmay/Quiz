@@ -1,0 +1,85 @@
+const quizData = [
+  {
+    question: "Which language is used for web apps?",
+    option1: "Python",
+    option2: "JavaScript",
+    option3: "C++",
+    option4: "Java",
+    ans: 2,
+  },
+  {
+    question: "What does CSS stand for?",
+    option1: "Central Style Sheets",
+    option2: "Cascading Style Sheets",
+    option3: "Cascading Simple Sheets",
+    option4: "Control Style Sheets",
+    ans: 2,
+  },
+  {
+    question: "Which company developed React?",
+    option1: "Google",
+    option2: "Microsoft",
+    option3: "Facebook",
+    option4: "Twitter",
+    ans: 3,
+  },
+  {
+    question: "Inside which HTML element do we put JavaScript?",
+    option1: "<js>",
+    option2: "<script>",
+    option3: "<javascript>",
+    option4: "<code>",
+    ans: 2,
+  },
+  {
+    question: "Which hook is used for state in React?",
+    option1: "useEffect",
+    option2: "useState",
+    option3: "useContext",
+    option4: "useReducer",
+    ans: 2,
+  },
+  {
+    question: "Which symbol is used for comments in JavaScript?",
+    option1: "<!-- -->",
+    option2: "/* */",
+    option3: "//",
+    option4: "#",
+    ans: 3,
+  },
+  {
+    question: "Which of the following is NOT a JavaScript framework?",
+    option1: "React",
+    option2: "Angular",
+    option3: "Vue",
+    option4: "Django",
+    ans: 4,
+  },
+  {
+    question: "What does HTML stand for?",
+    option1: "Home Tool Markup Language",
+    option2: "Hyperlinks and Text Markup Language",
+    option3: "High Text Marking Language",
+    option4: "Hyper link markup Language",
+    ans: 3,  // <-- fixed (your earlier data had wrong answer index)
+  },
+  {
+    question: "Which method is used to print something in the console?",
+    option1: "print()",
+    option2: "echo()",
+    option3: "console.log()",
+    option4: "log.console()",
+    ans: 3,
+  },
+  {
+    question: "Which tag is used to create a hyperlink in HTML?",
+    option1: "<link>",
+    option2: "<a>",
+    option3: "<href>",
+    option4: "<hlink>",
+    ans: 2,
+  },
+];
+
+export default quizData;
+
